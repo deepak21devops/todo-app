@@ -1,0 +1,30 @@
+.todo {
+  background-color: #e6e0e0;
+  border-radius: 6px;
+  padding: 3rem;
+  margin: 3rem auto;
+  width: 90%;
+  max-width: 40rem;
+  justify-content: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.todo h1 {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #826f66;
+}
+.todo h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #826f66;
+}
+.todo p {
+  margin-bottom: 0.25rem;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #826f66;
+  font-size: 1rem;
+  font-weight: bold;
+}

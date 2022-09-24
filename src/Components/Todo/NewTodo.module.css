@@ -1,0 +1,42 @@
+.new_todo {
+  background-color: #413f42;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 100%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+.new_todo h1 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: white;
+}
+.new_todo button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid #ac7d88;
+  background-color: #ac7d88;
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.new_todo button:hover,
+.new_todo button:active {
+  background-color: #85586f;
+  border-color: #85586f;
+}
+
+.new_todo button.alternative {
+  color: #220131;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.new_todo button.alternative:hover,
+.new_todo button.alternative:active {
+  background-color: #85586f;
+}
